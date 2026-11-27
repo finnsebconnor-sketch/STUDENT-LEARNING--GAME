@@ -25,22 +25,21 @@ body::before{
     z-index:-1;
 }
 
-#arcade-link{
-    position:fixed;
-    top:5px;
-    left:10px;
-    font-size:10px;
-    color:white;
-    opacity:.4;
-    cursor:pointer;
-}
 
 #account{
     position:fixed;
     top:10px;
     right:10px;
 }
-
+#arcade-link{
+    position:fixed;
+    top:10px;
+    left:10px;
+    font-size:16px;
+    color:white;
+    cursor:pointer;
+    z-index:9999;
+}
 #account button{
     padding:8px 15px;
     border:none;
