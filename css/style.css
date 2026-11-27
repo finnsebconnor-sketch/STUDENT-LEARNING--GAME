@@ -1,13 +1,22 @@
-body{
-    margin:0;
-    font-family:Arial,sans-serif;
-    text-align:center;
-    color:white;
-    background:#0f172a;
-    overflow:hidden;
+body::before{
+content:
+"7×8=56   12÷4=3   x+5=12   25% of 80=20   9×9=81   14−6=8   3²=9";
+
+position:fixed;
+inset:0;
+
+display:block;
+
+color:rgba(255,255,255,0.12);
+
+font-size:60px;
+
+padding:40px;
+
+z-index:0;
 }
 
-body::before{
+
     content:
     "7×8=56  12÷4=3  9×9=81  3²=9  25% of 80=20  14-6=8  7×8=56  12÷4=3  9×9=81  3²=9  25% of 80=20";
 
